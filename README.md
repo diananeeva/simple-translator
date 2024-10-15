@@ -1,8 +1,23 @@
-# React + Vite
+# Language Translator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Language Translator application built with React. The application allows users to input text and select a target language to receive a translated output.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Input text in a text area to be translated.
+- Select a target language from a dropdown menu.
+- Display the translated text below the input area.
+
+## Technologies Used
+
+- **Frontend**: React
+- **State Management**: React Hooks (`useState`)
+- **HTTP Requests**: Axios (for potential future enhancements)
+- **Styling**: Inline CSS
+
+## Project Structure
+
+- `src/`: Contains the source code for the React application.
+- `App.jsx`: The main application component that handles the translation logic and user interface.
+
+
